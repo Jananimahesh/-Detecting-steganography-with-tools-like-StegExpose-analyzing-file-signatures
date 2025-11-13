@@ -36,6 +36,7 @@ Analyze file signatures using tools like file, binwalk, or xxd to check for inco
 ```bash
 file suspect.jpg
 ```
+
 or view magic bytes:
 ```
 xxd suspect.jpg | head
@@ -46,6 +47,12 @@ java -jar StegExpose.jar suspect.jpg
 ```
 ## OUTPUT:
 List of Images with Steganography Detection Scores and File Signature Details
+
+<img width="545" height="263" alt="image" src="https://github.com/user-attachments/assets/039ce3af-fa3f-4068-a04a-6756bdca7615" />
+
+<img width="458" height="293" alt="image" src="https://github.com/user-attachments/assets/641ece5a-a425-41ce-b33d-7704870920b9" />
+
+
 
 ## RESULT:
 Hidden data was successfully detected and file signatures were analyzed for irregularities.
